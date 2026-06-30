@@ -125,12 +125,8 @@ DATABASES = {
     "default": dj_database_url.parse(_DATABASE_URL, conn_max_age=600, ssl_require=True)
     if _DATABASE_URL
     else {
-        "ENGINE": "django.db.backends.postgresql",
-        "NAME": "afdd",
-        "USER": "monit",
-        "PASSWORD": "a2q9SOf3B15kewBF",
-        "HOST": "10.212.0.10",
-        "PORT": "5432",
+        "ENGINE": "django.db.backends.sqlite3",
+        "NAME": BASE_DIR / "db.sqlite3",
     }
 }
 
