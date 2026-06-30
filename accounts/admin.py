@@ -1,0 +1,6 @@
+from django.contrib import admin
+from .models import User
+@admin.register(User)
+class UserAdmin(admin.ModelAdmin):
+    list_display = ("id", "username", "email", "role", "is_active", "email_verified","phone_number", "updated_at")
+    search_fields = ("username", "email")

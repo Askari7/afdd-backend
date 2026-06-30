@@ -1,0 +1,19 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+db.sqlite3
+*.log
+staticfiles/
+media/
+.env
+.env.local
+.env.*.local
+*.env
+temp_tail.txt
+temp_tail_head.txt
+.claude/
+
+# Google Cloud credentials
+devices/auto-annotation-461106-c1934e2fdd95.json

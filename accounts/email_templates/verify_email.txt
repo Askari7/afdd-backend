@@ -1,0 +1,4 @@
+Hi {{username}},
+
+Verify your email:
+{{verify_url}}
