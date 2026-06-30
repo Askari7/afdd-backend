@@ -29,7 +29,7 @@ SECRET_KEY = os.environ.get(
 # Set DJANGO_DEBUG=False in your environment for production.
 DEBUG = os.environ.get('DJANGO_DEBUG', 'True') == 'True'
 
-ALLOWED_HOSTS = ['192.168.100.10','192.168.100.19','127.0.0.1','localhost','182.180.188.205',"backend.monit.pk","192.168.100.200","backend.monit.tech","afdd.monit.tech","engro-production.vercel.app","34.18.103.11","afdd-production-git-development-askari7s-projects.vercel.app"]
+ALLOWED_HOSTS = ['192.168.100.10','192.168.100.19','127.0.0.1','localhost','182.180.188.205',"backend.monit.pk","192.168.100.200","backend.monit.tech","afdd.monit.tech","engro-production.vercel.app","34.18.103.11","afdd-production-git-development-askari7s-projects.vercel.app","afdd-portal.vercel.app",".vercel.app"]
 
 
 # Application definition
